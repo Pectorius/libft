@@ -6,22 +6,20 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 16:13:33 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/06 14:45:09 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/14 15:37:46 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(int c)
+int	ft_isalnum(int character)
 {
-	c = 0;
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-	{
+	if (character >= 48 && character <= 57)
 		return (1);
-	}
-	else if (c >= '0' && c <= '9')
-	{
+	else if (character >= 65 && character <= 90)
 		return (1);
-	}
-	return (0);
+	else if (character >= 97 && character <= 122)
+		return (1);
+	else
+		return (0);
 }

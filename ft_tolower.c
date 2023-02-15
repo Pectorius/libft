@@ -6,7 +6,7 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/03 10:45:01 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/06 14:53:05 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/15 10:45:42 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int	ft_tolower(int argument)
 	if (argument >= 65 && argument <= 90)
 	{
 		argument += 32;
-		argument++;
 	}
-	return (0);
+	return (argument);
 }
