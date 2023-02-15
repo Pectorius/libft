@@ -6,7 +6,7 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 08:54:28 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/15 13:08:09 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/15 13:33:00 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,7 @@ void	ft_putchar_fd(char c, int fd);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	ft_bzero(void *s, size_t n);
 void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 #endif
