@@ -6,7 +6,7 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 08:54:28 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/15 10:35:46 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/15 10:58:17 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,6 @@ void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *s1);
 void	ft_putchar_fd(char c, int fd);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
-void	ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n);
 
 #endif
