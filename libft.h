@@ -6,7 +6,7 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 08:54:28 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/15 11:31:21 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/15 13:08:09 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ char	*ft_strdup(const char *s1);
 void	ft_putchar_fd(char c, int fd);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	ft_bzero(void *s, size_t n);
+void	ft_putstr_fd(char *s, int fd);
 
 #endif
