@@ -6,7 +6,7 @@
 /*   By: pnegre <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 08:54:28 by pnegre            #+#    #+#             */
-/*   Updated: 2023/02/17 16:35:39 by pnegre           ###   ########.fr       */
+/*   Updated: 2023/02/17 16:41:54 by pnegre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 
-int		ft_atoi(const char *nptr);
+int		ft_atoi(const char *str);
 
 void	*ft_calloc(size_t n, size_t size);
 
